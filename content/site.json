@@ -1,28 +1,28 @@
 {
-  "clan_name": "TARTAROS",
+  "clan_name": "",
   "clan_icon": "https://cdn.discordapp.com/icons/1082833025764687933/59386395b636888b318be9244f079330.webp?size=2048",
 
   "hero": {
-    "eyebrow": "BTD6 Competitive Clan",
-    "title": "TARTAROS",
-    "subtitle": "You don't have to be the perfect player.",
-    "tagline": "You just have to find the right team."
+    "eyebrow": "",
+    "title": "",
+    "subtitle": "",
+    "tagline": ""
   },
 
   "stats": [
-    { "value": "Top 25",    "label": "Main team CT placement" },
-    { "value": "Top 100",   "label": "All competitive teams" },
-    { "value": "10",        "label": "Teams for every playstyle" },
-    { "value": "All modes", "label": "CT, Boss Rush & Social Seasons" },
-    { "value": "0",         "label": "Toxicity tolerated" }
+    { "value": "", "label": "" },
+    { "value": "", "label": "" },
+    { "value": "", "label": "" },
+    { "value": "", "label": "" },
+    { "value": "", "label": "" }
   ],
 
   "recruiters": [
-    { "initial": "T", "username": "tuyu_",      "role": "Head Recruiter — DM on Discord", "gradient": "135deg,#4fc3f7,#9c6fdb" },
-    { "initial": "H", "username": "Hlli_elite", "role": "Recruiter — DM on Discord",      "gradient": "135deg,#9c6fdb,#ef5350" }
+    { "initial": "T", "username": "tuyu_",      "role": "", "gradient": "135deg,#4fc3f7,#9c6fdb" },
+    { "initial": "H", "username": "Hlli_elite", "role": "", "gradient": "135deg,#9c6fdb,#ef5350" }
   ],
 
-  "footer": "Tartaros — BTD6 Clan · Recruiting for next event",
+  "footer": "",
 
   "webhook_url": "https://discord.com/api/webhooks/1505286940046528683/O4v_MHFIKNqF7Jycti8Sft2G29BnSKu7IsOUYjCGPQLj-6NS9seKjGjZFCR3QqKGtjpe"
 }

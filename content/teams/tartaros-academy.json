@@ -2,22 +2,21 @@
   "id": "academy",
   "name": "Tartaros Academy",
   "color": "#9c6fdb",
-  "tag_label": "Developing — Top 100",
+  "tag_label": "",
   "tag_class": "ctp",
-  "placement": "Targeting <span>top 100</span> · Occasionally top 25",
+  "placement": "",
   "code": "OSZFFSBR",
   "section": "ct",
 
-  "card_quote": "\"I'm competitive but not at the highest level. I want to challenge myself and learn the game.\"",
-  "card_desc": "Academy was made for players like you. Targeting top 100 — and sometimes cracking top 25 — surrounded by experienced players who are genuinely invested in helping you improve.",
+  "card_quote": "",
+  "card_desc": "",
 
-  "modal_quote": "\"I'm competitive but not at the highest level. I want to challenge myself and learn the game.\"",
-  "modal_desc": "Academy is the right place for players who are competitive but not yet at main team level — which is completely normal. You'll be competing for top 100 placements alongside skilled players who want to help you develop. Many of our current main team members came through Academy first. The goal is to keep improving until you're ready for the next step.",
+  "modal_quote": "",
+  "modal_desc": "",
   "requirements": [
-    "<strong>Regular ticket usage</strong> — active participation each event is expected",
-    "<strong>Open to feedback</strong> — willing to take on advice and try new strategies",
-    "<strong>Contributing to placement</strong> — putting in meaningful scores, not just attending",
-    "<strong>Active on Discord</strong> — keeping up with plans and coordination",
-    "<strong>Focused on getting better</strong> — the aim is progression, not just participation"
+    "",
+    "",
+    "",
+    ""
   ]
 }

@@ -1,68 +1,24 @@
 {
-  "label": "Who we are",
-  "title": "Most teams ask if you're <em>good enough</em> for them. We ask which team is right <highlight>for you</highlight>.",
-  "intro": "Tartaros has teams for every kind of player — from top 25 grinders to people who just want to log in, have fun, and collect rewards. No matter where you are in your BTD6 experience, there's a spot here for you. We just need to help you find the right one.",
+  "label": "",
+  "title": "",
+  "intro": "",
 
   "pillars": [
-    {
-      "icon": "",
-      "title": "Competitive at every level",
-      "body": "All of our competitive teams hold top 100 positions on the CT leaderboard, with our main teams consistently placing top 25. We plan ahead, coordinate rosters, and set strong scores at whatever level suits you."
-    },
-    {
-      "icon": "",
-      "title": "Every game mode covered",
-      "body": "CT, Boss Rush, Social Seasons — we have dedicated teams for each. Play one, play all, or switch between them event to event. No commitment to a single mode required."
-    },
-    {
-      "icon": "",
-      "title": "A community that actually helps",
-      "body": "Whether it's strategies, solutions, or just someone to play alongside — people here want to see you improve. We also run server events outside BTD6, including Minecraft, skribbl.io, and more."
-    },
-    {
-      "icon": "",
-      "title": "Proper coordination",
-      "body": "Strategy is planned before every event, goals are communicated clearly, and no one is left guessing what they're supposed to do. That coordination is a big part of what separates us."
-    },
-    {
-      "icon": "",
-      "title": "A place to learn and improve",
-      "body": "New to CT or still finding your feet? We have teams built specifically for development. Experienced players are happy to share what they know — there's no gatekeeping here."
-    },
-    {
-      "icon": "",
-      "title": "A clear path upward",
-      "body": "A lot of our main team players started in Sandbox or Academy. The structure is there to support your progression — where you start is just where you begin."
-    }
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" }
   ],
 
-  "values_label": "Our values",
-  "values_title": "What we stand for",
+  "values_label": "",
+  "values_title": "",
   "values": [
-    {
-      "numeral": "I",
-      "title": "No excessive grinding required.",
-      "body": "Use your tickets and set decent scores. We value your time and don't expect you to be online around the clock."
-    },
-    {
-      "numeral": "II",
-      "title": "Breaks are fine.",
-      "body": "Going away or need some time off? Life comes first. Let us know in advance and your spot will be there when you're back."
-    },
-    {
-      "numeral": "III",
-      "title": "Zero toxicity.",
-      "body": "We take the game seriously, but we don't lose sight of the fact that others are still learning. Mastery is respected. Elitism isn't."
-    },
-    {
-      "numeral": "IV",
-      "title": "Clear coordination.",
-      "body": "We plan strategy in advance and make sure everyone understands the goal before an event begins. No one should ever feel lost."
-    },
-    {
-      "numeral": "V",
-      "title": "Genuine community.",
-      "body": "We help each other out — with strategies, with questions, with just having someone to play with. That's what makes this more than just a team."
-    }
+    { "numeral": "I",   "title": "", "body": "" },
+    { "numeral": "II",  "title": "", "body": "" },
+    { "numeral": "III", "title": "", "body": "" },
+    { "numeral": "IV",  "title": "", "body": "" },
+    { "numeral": "V",   "title": "", "body": "" }
   ]
 }

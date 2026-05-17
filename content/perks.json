@@ -1,48 +1,16 @@
 {
-  "label": "Whatever team you land on",
-  "title": "Here's what comes with it.",
-  "intro": "Every team in Tartaros operates with the same culture — serious about the game, reasonable about everything else.",
+  "label": "",
+  "title": "",
+  "intro": "",
 
   "perks": [
-    {
-      "icon": "",
-      "title": "Inactivity is handled fairly",
-      "body": "Going away or need time off? Just let us know in advance. Life comes first and your spot will be there when you're back."
-    },
-    {
-      "icon": "",
-      "title": "Coordination before every event",
-      "body": "Strategy is planned and communicated clearly before events begin. You'll always know what the goal is and what's expected of you."
-    },
-    {
-      "icon": "",
-      "title": "A player base that helps",
-      "body": "Whether it's strategies, troubleshooting, or just someone to play alongside — people here are willing to help. Ask questions and you'll get answers."
-    },
-    {
-      "icon": "",
-      "title": "No toxic behaviour, no elitism",
-      "body": "We compete seriously but keep things respectful. Everyone is at a different stage and that's treated as normal, not something to criticise."
-    },
-    {
-      "icon": "",
-      "title": "No obsessive grinding",
-      "body": "Use your tickets and play your part. We don't expect you to be online constantly — consistent, decent participation is what matters."
-    },
-    {
-      "icon": "",
-      "title": "Boss Rush access",
-      "body": "We run Boss Rush on our lower teams. Not interested in playing? You can still collect rewards once the team clears all islands."
-    },
-    {
-      "icon": "",
-      "title": "Events beyond BTD6",
-      "body": "We run server-wide events including Minecraft, skribbl.io, and others — for when you want to spend time with the community outside of the game."
-    },
-    {
-      "icon": "",
-      "title": "Room to move up",
-      "body": "Start wherever suits your current level and progress at your own pace. The pathway to higher teams is open to anyone who puts in the effort."
-    }
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" },
+    { "icon": "", "title": "", "body": "" }
   ]
 }

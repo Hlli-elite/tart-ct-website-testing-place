@@ -2,21 +2,21 @@
   "id": "blitz",
   "name": "Banana Blitz",
   "color": "#ef5350",
-  "tag_label": "Boss Rush",
+  "tag_label": "",
   "tag_class": "",
-  "placement": "<span>Boss Rush</span> · Fast clears, free rewards",
+  "placement": "",
   "code": "KVZFDTKD",
   "section": "other",
 
-  "card_quote": "\"I don't want to play CT. I prefer Boss Rush.\"",
-  "card_desc": "Banana Blitz is built for you. A dedicated Boss Rush team focused on clearing all islands quickly. Not interested in playing? You can still collect rewards once the team is done.",
+  "card_quote": "",
+  "card_desc": "",
 
-  "modal_quote": "\"I don't want to play CT. I prefer Boss Rush.\"",
-  "modal_desc": "Banana Blitz is our dedicated Boss Rush team, built around fast island clears and getting everyone their rewards efficiently. You don't need to play actively — once the team has cleared all islands, you can collect rewards without having contributed a single attack. For players who do want to participate, Blitz runs in a coordinated and focused way. If you're already on a CT team, you can freely switch to Blitz for Boss Rush events and back again.",
+  "modal_quote": "",
+  "modal_desc": "",
   "requirements": [
-    "<strong>Present during Boss Rush events</strong> — be around when the event is running",
-    "<strong>No CT commitment required</strong> — this team is purely for Boss Rush",
-    "<strong>CT players are welcome</strong> — freely switch between teams per event",
-    "Inactive players can still collect rewards after the team completes all islands"
+    "",
+    "",
+    "",
+    ""
   ]
 }

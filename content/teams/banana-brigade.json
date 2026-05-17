@@ -2,21 +2,21 @@
   "id": "brigades",
   "name": "Banana Brigade",
   "color": "#ffa726",
-  "tag_label": "Social Seasons",
+  "tag_label": "",
   "tag_class": "",
-  "placement": "<span>Social Seasons</span> · Two teams, max rewards",
+  "placement": "",
   "code": "PFZFDUKB",
   "section": "other",
 
-  "card_quote": "\"I want to play Social Seasons without committing to CT.\"",
-  "card_desc": "Two teams exclusively for Social Seasons. No CT required — just participate in the seasonal content and earn rewards. Already on a CT team? You can switch freely between events.",
+  "card_quote": "",
+  "card_desc": "",
 
-  "modal_quote": "\"I want to play Social Seasons without committing to CT.\"",
-  "modal_desc": "Banana Brigade runs as two separate teams and exists purely for Social Seasons. There's no CT requirement and no pressure — just join, play the seasonal content, and work toward maximum rewards. If you're already on a CT team, you're welcome to switch over to Brigade for Social Seasons events and back again depending on what's running.",
+  "modal_quote": "",
+  "modal_desc": "",
   "requirements": [
-    "<strong>Active during Social Seasons events</strong> — show up and participate",
-    "<strong>No CT requirement</strong> — this team is for Social Seasons only",
-    "<strong>CT players can join freely</strong> — switch between your CT team and Brigade per event",
-    "<strong>Goal is maximum rewards</strong> — we aim to complete all seasonal content together"
+    "",
+    "",
+    "",
+    ""
   ]
 }

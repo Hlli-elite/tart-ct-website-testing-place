@@ -2,21 +2,21 @@
   "id": "sanctum",
   "name": "Tartaros Sanctum",
   "color": "#66bb6a",
-  "tag_label": "Relaxed — Top 100",
+  "tag_label": "",
   "tag_class": "ctg",
-  "placement": "Targeting <span>top 100</span> · Low requirements",
+  "placement": "",
   "code": "HFHZMHEE",
   "section": "ct",
 
-  "card_quote": "\"I like CT but I can't commit to playing every day. I want something more laid back.\"",
-  "card_desc": "Sanctum has you covered. No heavy requirements — just show up, use some attacks, and enjoy the event. We still aim for top 100, but we understand that real life doesn't pause for CT.",
+  "card_quote": "",
+  "card_desc": "",
 
-  "modal_quote": "\"I like CT but I can't commit to playing every day. I want something more laid back.\"",
-  "modal_desc": "Sanctum is for players who enjoy CT but can't commit to grinding every day — and that's a completely valid position. You'll still be part of a team aiming for top 100, still contributing to the event, just without the pressure of strict daily requirements. Show up when you can, use your attacks, and enjoy the game without it feeling like a job.",
+  "modal_quote": "",
+  "modal_desc": "",
   "requirements": [
-    "<strong>Some ticket usage</strong> — contribute what you can, every event",
-    "<strong>Communication around absence</strong> — let us know if you're going to miss an event",
-    "<strong>Respectful conduct</strong> — that's the one thing we always ask for",
-    "<strong>Occasional Discord check-ins</strong> — no need to be online constantly"
+    "",
+    "",
+    "",
+    ""
   ]
 }

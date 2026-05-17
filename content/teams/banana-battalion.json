@@ -2,22 +2,21 @@
   "id": "battalion",
   "name": "Banana Battalion",
   "color": "#9c6fdb",
-  "tag_label": "Developing — Top 100",
+  "tag_label": "",
   "tag_class": "ctp",
-  "placement": "Targeting <span>top 100</span> · Competitive development",
+  "placement": "",
   "code": "OLZFCRPA",
   "section": "ct",
 
-  "card_quote": "\"I'm competitive but not at the highest level. I want to challenge myself and learn the game.\"",
-  "card_desc": "Battalion was built for players like you. Competitive CT targeting top 100, without the pressure of an elite squad. A solid environment to develop, perform, and progress when you're ready.",
+  "card_quote": "",
+  "card_desc": "",
 
-  "modal_quote": "\"I'm competitive but not at the highest level. I want to challenge myself and learn the game.\"",
-  "modal_desc": "Banana Battalion takes competition seriously without demanding the same level of commitment as the top teams. It's a good fit for players who are actively improving and want to compete in a structured environment while still having room to develop. The expectation is that you show up, contribute, and keep working to get better.",
+  "modal_quote": "",
+  "modal_desc": "",
   "requirements": [
-    "<strong>Regular participation</strong> — expected to contribute meaningfully each event",
-    "<strong>Open to feedback</strong> — willing to learn from more experienced players",
-    "<strong>Solid scoring</strong> — contributing to team placement, not just being present",
-    "<strong>Active on Discord</strong> — keeping up with plans and coordination",
-    "<strong>Competitive mindset</strong> — here to improve, not just to have a team"
+    "",
+    "",
+    "",
+    ""
   ]
 }

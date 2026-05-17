@@ -2,21 +2,21 @@
   "id": "bunch",
   "name": "Banana Bunch",
   "color": "#66bb6a",
-  "tag_label": "Relaxed — Learning",
+  "tag_label": "",
   "tag_class": "ctg",
-  "placement": "<span>Casual CT</span> · Relaxed learning environment",
+  "placement": "",
   "code": "TBZFPBBK",
   "section": "ct",
 
-  "card_quote": "\"I like CT but I can't commit to playing every day. I want something more laid back.\"",
-  "card_desc": "Banana Bunch has you covered. A relaxed CT team focused on learning at your own pace. Use at least some attacks each day and enjoy the event without the pressure.",
+  "card_quote": "",
+  "card_desc": "",
 
-  "modal_quote": "\"I like CT but I can't commit to playing every day. I want something more laid back.\"",
-  "modal_desc": "Banana Bunch is a low-pressure CT team focused on giving players a relaxed environment to learn the event and enjoy it. If you want to take part in CT without strict requirements weighing on you, this is a good home. Use at least some of your attacks each day, pick things up as you go, and play at a pace that works for you.",
+  "modal_quote": "",
+  "modal_desc": "",
   "requirements": [
-    "<strong>At least some daily attacks</strong> — contribute what you can",
-    "<strong>Willingness to learn</strong> — Bunch is a learning environment",
-    "<strong>Respectful attitude</strong> — everyone is at a different stage, and that's fine",
-    "No minimum score requirements — just participate and engage"
+    "",
+    "",
+    "",
+    ""
   ]
 }

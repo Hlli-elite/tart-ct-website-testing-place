@@ -2,22 +2,21 @@
   "id": "hlls",
   "name": "The Hlls",
   "color": "#4fc3f7",
-  "tag_label": "Competitive — Top 25",
+  "tag_label": "",
   "tag_class": "ctb",
-  "placement": "Consistent <span>top 25</span> CT finishes · Elite squad",
+  "placement": "",
   "code": "DYZFEMER",
   "section": "ct",
 
-  "card_quote": "\"I'm active, I use all my tickets, I want the highest placement possible.\"",
-  "card_desc": "Our second elite CT squad, pushing hard for top 25 every event. If you're fully committed to grinding CT and competing at the top, this is where you belong.",
+  "card_quote": "",
+  "card_desc": "",
 
-  "modal_quote": "\"I'm active, I use all my tickets, I want the highest placement possible.\"",
-  "modal_desc": "The Hlls is our second top-tier CT team, competing at the same level as the main Tartaros squad. If you're the kind of player who uses every ticket, tracks placements, and wants to push as high as possible each event, you'll fit right in here. This team is for players who are fully committed — not just occasionally active.",
+  "modal_quote": "",
+  "modal_desc": "",
   "requirements": [
-    "<strong>Full ticket usage daily</strong> — this is non-negotiable at this level",
-    "<strong>Active on Discord</strong> — coordination and communication are essential",
-    "<strong>Focused on improvement</strong> — always looking to score higher and place better",
-    "<strong>Reliable every event</strong> — consistent presence, not just when it's convenient",
-    "<strong>Good CT knowledge</strong> — you understand the meta and can execute strategy"
+    "",
+    "",
+    "",
+    ""
   ]
 }

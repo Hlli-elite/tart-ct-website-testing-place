@@ -2,21 +2,21 @@
   "id": "sandbox",
   "name": "Tartaros Sandbox",
   "color": "#ffd54f",
-  "tag_label": "Casual",
+  "tag_label": "",
   "tag_class": "cty",
-  "placement": "<span>Casual play</span> · New and returning players",
+  "placement": "",
   "code": "XAZFYHXP",
   "section": "ct",
 
-  "card_quote": "\"I'm new to CT, I want to learn the ropes or just want to test out the event.\"",
-  "card_desc": "Sandbox is for players like you. No requirements, people around to help, and a space to learn how CT actually works. Start here, play at your own pace, and move up when you're ready.",
+  "card_quote": "",
+  "card_desc": "",
 
-  "modal_quote": "\"I'm new to CT, I want to learn the ropes or just want to test out the event.\"",
-  "modal_desc": "Sandbox is the right starting point if you're new to CT, coming back after time away, or just want to try the event without any pressure. There are no requirements, no score expectations, and no judgment. Friendly people are around if you have questions, and you can move up to a higher team whenever it feels right.",
+  "modal_quote": "",
+  "modal_desc": "",
   "requirements": [
-    "<strong>No requirements</strong> — just join and play",
-    "<strong>Respectful conduct</strong> — the one thing that matters everywhere",
-    "<strong>Curiosity</strong> — ask questions, try things, learn at your own pace",
-    "Sandbox is also the entry point for players pending placement on a higher team"
+    "",
+    "",
+    "",
+    ""
   ]
 }

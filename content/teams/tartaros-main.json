@@ -2,22 +2,21 @@
   "id": "main",
   "name": "Tartaros",
   "color": "#4fc3f7",
-  "tag_label": "Competitive — Top 25",
+  "tag_label": "",
   "tag_class": "ctb",
-  "placement": "Consistent <span>top 25</span> CT finishes · Flagship team",
+  "placement": "",
   "code": "DRRZTFVS",
   "section": "ct",
 
-  "card_quote": "\"I'm active, I respond to pings, I am dedicated to CT.\"",
-  "card_desc": "Our flagship team. Consistent top 25 CT finishes whilst battling hard locals. We plan ahead, coordinate rosters, and set strong scores. If you're dedicated to the game and want to compete at the highest level, this is where you play.",
+  "card_quote": "",
+  "card_desc": "",
 
-  "modal_quote": "\"I'm active, I respond to pings, I am dedicated to CT.\"",
-  "modal_desc": "Tartaros is our flagship team and where our most committed players compete. We consistently place in the top 25 on the CT leaderboard, battling hard locals and coordinating tightly to push our placement as high as possible each event. If you're serious about CT and want to compete at the top level in a well-organised environment, this is the right team for you.",
+  "modal_quote": "",
+  "modal_desc": "",
   "requirements": [
-    "<strong>Full ticket usage every event</strong> — no exceptions",
-    "<strong>Responsive to pings</strong> — available and engaged when strategy is being discussed",
-    "<strong>Committed to CT</strong> — focused on helping the team place as high as possible",
-    "<strong>Consistently strong performance</strong> — not just showing up occasionally",
-    "<strong>Active on Discord</strong> — keeping up with plans, rosters, and coordination"
+    "",
+    "",
+    "",
+    ""
   ]
 }
