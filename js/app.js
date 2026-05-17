@@ -1,11 +1,3 @@
-/* ============================================================
-   app.js — Tartaros recruitment site
-   All editable text lives in /content/*.json
-   Edit those files, not this one, unless changing site logic.
-   ============================================================ */
-
-// ── Helpers ─────────────────────────────────────────────────
-
 async function loadJSON(path) {
   const res = await fetch(path);
   return res.json();
@@ -18,29 +10,22 @@ function el(tag, cls, html) {
   return e;
 }
 
-// ── Render: Hero & Stats (site.json) ────────────────────────
-
 function renderSite(s) {
-  // nav logo + wordmark
   document.querySelectorAll('.nav-logo').forEach(i => i.src = s.clan_icon);
   document.querySelectorAll('.hero-icon').forEach(i => i.src = s.clan_icon);
 
-  // hero text
-  document.querySelector('.eyebrow').textContent    = s.hero.eyebrow;
+  document.querySelector('.eyebrow').textContent = s.hero.eyebrow;
   document.querySelector('.hero-title').textContent = s.hero.title;
-  document.querySelector('.hero-sub').textContent   = s.hero.subtitle;
+  document.querySelector('.hero-sub').textContent = s.hero.subtitle;
   document.querySelector('.hero-tagline').textContent = s.hero.tagline;
 
-  // stat bar
   const bar = document.querySelector('.stat-bar');
   bar.innerHTML = s.stats.map(st =>
     `<div class="stat"><div class="stat-n">${st.value}</div><div class="stat-l">${st.label}</div></div>`
   ).join('');
 
-  // footer
   document.querySelector('footer p').innerHTML = s.footer;
 
-  // recruiters (join page + modal apply)
   const recContainer = document.getElementById('recruiter-cards');
   if (recContainer) {
     recContainer.innerHTML = s.recruiters.map(r => `
@@ -50,11 +35,8 @@ function renderSite(s) {
       </div>`).join('');
   }
 
-  // store webhook for form use
   window.WEBHOOK_URL = s.webhook_url;
 }
-
-// ── Render: About (about.json) ──────────────────────────────
 
 function renderAbout(a) {
   const page = document.getElementById('page-about');
@@ -88,13 +70,9 @@ function renderAbout(a) {
     <div class="rules">${valuesHTML}</div>`;
 }
 
-// ── Render: Teams (content/teams/*.json) ────────────────────
-
 function teamCardHTML(t) {
   const isCustomColor = !t.tag_class;
-  const tagStyle = isCustomColor
-    ? `style="background:${t.color}22;color:${t.color}"`
-    : '';
+  const tagStyle = isCustomColor ? `style="background:${t.color}22;color:${t.color}"` : '';
   const cardBorderStyle = isCustomColor
     ? `style="border-color:${t.color}33;cursor:pointer"
        onmouseenter="this.style.borderColor='${t.color}'"
@@ -124,9 +102,9 @@ function colorClassFromTag(tagCls) {
 }
 
 function renderTeams(teams) {
-  const page    = document.getElementById('page-teams');
+  const page = document.getElementById('page-teams');
   const section = page.querySelector('.section');
-  const ctTeams    = teams.filter(t => t.section === 'ct');
+  const ctTeams = teams.filter(t => t.section === 'ct');
   const otherTeams = teams.filter(t => t.section === 'other');
 
   section.innerHTML = `
@@ -134,29 +112,25 @@ function renderTeams(teams) {
     <h2 class="stitle reveal">Which one sounds like it fits you?</h2>
     <p class="sbody reveal">Between us we have teams for every kind of player. From top 25 grinders to people who just want to log in, have fun, and collect rewards — no matter where you are in your BTD6 experience, there's a spot here just for you. Click any card to see the full details.</p>
 
-    <p class="slabel reveal" style="margin-bottom:.7rem">⚔️ CT Teams</p>
+    <p class="slabel reveal" style="margin-bottom:.7rem">CT Teams</p>
     <div class="teams-grid" style="margin-bottom:2.5rem">
       ${ctTeams.map(teamCardHTML).join('')}
     </div>
 
-    <p class="slabel reveal" style="margin-bottom:.7rem">💥 Boss Rush & Social Seasons</p>
+    <p class="slabel reveal" style="margin-bottom:.7rem">Boss Rush & Social Seasons</p>
     <div class="teams-grid" style="margin-bottom:2.5rem">
       ${otherTeams.map(teamCardHTML).join('')}
     </div>
 
     <div class="tcard tgr nocursor reveal" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:.7rem;max-width:420px">
-      <p style="font-size:2rem">🤔</p>
       <p class="cname">Not sure yet?</p>
-      <p class="cdesc" style="margin-bottom:.4rem">→ Reach out anyway. We can help you find your fit.</p>
+      <p class="cdesc" style="margin-bottom:.4rem">Reach out anyway. We can help you find your fit.</p>
       <button class="btn btn-outline" style="font-size:.76rem;padding:.45rem 1.1rem" onclick="showPage('join')">Get In Touch</button>
     </div>`;
 
-  // Store teams globally for modal use
   window.TEAMS_DATA = {};
   teams.forEach(t => window.TEAMS_DATA[t.id] = t);
 }
-
-// ── Render: Perks (perks.json) ───────────────────────────────
 
 function renderPerks(p) {
   const page = document.getElementById('page-perks');
@@ -172,8 +146,6 @@ function renderPerks(p) {
         </div>`).join('')}
     </div>`;
 }
-
-// ── Render: Join (join.json) ─────────────────────────────────
 
 function renderJoin(j, recruiters) {
   const page = document.getElementById('page-join');
@@ -192,19 +164,19 @@ function renderJoin(j, recruiters) {
           <label class="form-label">Which team interests you? <span class="req-star">*</span></label>
           <select class="form-input" id="f-team">
             <option value="">— Select a team —</option>
-            <optgroup label="⚔️ Competitive CT">
+            <optgroup label="Competitive CT">
               <option>Tartaros (Main)</option>
               <option>The Hlls</option>
               <option>Tartaros Academy</option>
               <option>Tartaros University</option>
               <option>Banana Battalion</option>
             </optgroup>
-            <optgroup label="🪴 Relaxed CT">
+            <optgroup label="Relaxed CT">
               <option>Tartaros Sanctum</option>
               <option>Banana Bunch</option>
               <option>Tartaros Sandbox</option>
             </optgroup>
-            <optgroup label="💥 Other Modes">
+            <optgroup label="Other Modes">
               <option>Banana Blitz (Boss Rush)</option>
               <option>Banana Brigade (Social Seasons)</option>
             </optgroup>
@@ -243,7 +215,7 @@ function renderJoin(j, recruiters) {
         </div>
         <div id="form-error" style="display:none;margin-top:1rem">
           <div class="join-note" style="border-color:rgba(239,83,80,.3);background:rgba(239,83,80,.05)">
-            <strong style="color:var(--red)">⚠️ Something went wrong.</strong><br>
+            <strong style="color:var(--red)">Something went wrong.</strong><br>
             <span id="error-msg" style="color:var(--muted)"></span>
           </div>
         </div>
@@ -256,7 +228,6 @@ function renderJoin(j, recruiters) {
       </div>
     </div>`;
 
-  // Populate recruiter cards
   const recContainer = document.getElementById('recruiter-cards');
   recContainer.innerHTML = recruiters.map(r => `
     <div class="rec reveal">
@@ -264,11 +235,8 @@ function renderJoin(j, recruiters) {
       <div><p class="rec-name">${r.username}</p><p class="rec-role">${r.role}</p></div>
     </div>`).join('');
 
-  // Store success message for submit function
   window.SUCCESS_MESSAGE = j.success_message;
 }
-
-// ── Modal ────────────────────────────────────────────────────
 
 function openModal(id) {
   const t = window.TEAMS_DATA[id];
@@ -287,8 +255,8 @@ function openModal(id) {
     tag.style.color = t.color;
   }
 
-  document.getElementById('mname').textContent   = t.name;
-  document.getElementById('mplace').innerHTML    = t.placement;
+  document.getElementById('mname').textContent = t.name;
+  document.getElementById('mplace').innerHTML = t.placement;
 
   document.getElementById('mbody').innerHTML = `
     <div class="msec">
@@ -329,8 +297,6 @@ function bgClose(e) {
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
-// ── Navigation ───────────────────────────────────────────────
-
 function showPage(id) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
@@ -345,8 +311,6 @@ document.querySelectorAll('.nav-tab').forEach(btn => {
   btn.addEventListener('click', () => showPage(btn.dataset.page));
 });
 
-// ── Reveal animations ────────────────────────────────────────
-
 function revealAll() {
   document.querySelectorAll('.page.active .reveal').forEach((el, i) => {
     setTimeout(() => el.classList.add('visible'), i * 52);
@@ -356,8 +320,6 @@ function revealAll() {
 const obs = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
 }, { threshold: 0.07 });
-
-// ── Copy helpers ─────────────────────────────────────────────
 
 function copyModal(btn, code) {
   navigator.clipboard.writeText(code).catch(() => {});
@@ -373,8 +335,6 @@ function quickCopy(el, code) {
   setTimeout(() => t.classList.remove('show'), 1800);
 }
 
-// ── Form / Webhook ───────────────────────────────────────────
-
 let selectedFile = null;
 
 function handleFile(input) {
@@ -388,16 +348,16 @@ function handleFile(input) {
   const reader = new FileReader();
   reader.onload = e => {
     document.getElementById('upload-placeholder').style.display = 'none';
-    document.getElementById('upload-preview').style.display     = 'block';
-    document.getElementById('preview-img').src                  = e.target.result;
-    document.getElementById('preview-name').textContent         = file.name;
+    document.getElementById('upload-preview').style.display = 'block';
+    document.getElementById('preview-img').src = e.target.result;
+    document.getElementById('preview-name').textContent = file.name;
   };
   reader.readAsDataURL(file);
 }
 
 function showError(msg) {
-  document.getElementById('error-msg').textContent       = msg;
-  document.getElementById('form-error').style.display   = 'block';
+  document.getElementById('error-msg').textContent = msg;
+  document.getElementById('form-error').style.display = 'block';
 }
 
 function hideError() {
@@ -407,16 +367,16 @@ function hideError() {
 async function submitApplication() {
   hideError();
   const discord = document.getElementById('f-discord').value.trim();
-  const team    = document.getElementById('f-team').value;
-  const note    = document.getElementById('f-note').value.trim();
+  const team = document.getElementById('f-team').value;
+  const note = document.getElementById('f-note').value.trim();
 
-  if (!discord)      { showError('Please enter your Discord username.'); return; }
-  if (!team)         { showError("Please select which team you're interested in."); return; }
+  if (!discord) { showError('Please enter your Discord username.'); return; }
+  if (!team) { showError("Please select which team you're interested in."); return; }
   if (!selectedFile) { showError('Please upload a screenshot of your BTD6 profile.'); return; }
 
-  const btn   = document.getElementById('submit-btn');
+  const btn = document.getElementById('submit-btn');
   const label = document.getElementById('submit-label');
-  btn.disabled      = true;
+  btn.disabled = true;
   label.textContent = 'Sending...';
 
   try {
@@ -425,14 +385,14 @@ async function submitApplication() {
 
     const payload = {
       embeds: [{
-        title: '⚔️ New Tartaros Application',
+        title: 'New Tartaros Application',
         color: 0x4fc3f7,
         fields: [
-          { name: '👤 Discord',      value: discord,            inline: true },
-          { name: '🎯 Team Interest', value: team,               inline: true },
-          { name: '📝 Note',         value: note || '*No message provided*', inline: false }
+          { name: 'Discord', value: discord, inline: true },
+          { name: 'Team Interest', value: team, inline: true },
+          { name: 'Note', value: note || '*No message provided*', inline: false }
         ],
-        footer:    { text: 'Tartaros Recruitment' },
+        footer: { text: 'Tartaros Recruitment' },
         timestamp: new Date().toISOString()
       }]
     };
@@ -445,21 +405,18 @@ async function submitApplication() {
       document.querySelector('.app-form').style.display = 'none';
       document.getElementById('form-success').style.display = 'block';
     } else {
-      showError('Discord returned an error. Please DM a recruiter directly.');
-      btn.disabled      = false;
-      label.textContent = 'Send Application ⚔️';
+      showError('Something went wrong. Please DM a recruiter directly.');
+      btn.disabled = false;
+      label.textContent = 'Submit Application';
     }
   } catch (e) {
     showError('Could not connect. Check your internet and try again, or DM a recruiter directly.');
-    btn.disabled      = false;
-    label.textContent = 'Send Application ⚔️';
+    btn.disabled = false;
+    label.textContent = 'Submit Application';
   }
 }
 
-// ── Boot: load all content and render ───────────────────────
-
 async function boot() {
-  // Load all team files — add/remove filenames here to add/remove teams
   const teamFiles = [
     'content/teams/tartaros-main.json',
     'content/teams/the-hlls.json',
@@ -487,7 +444,6 @@ async function boot() {
   renderPerks(perks);
   renderJoin(join, site.recruiters);
 
-  // Start reveal observer after render
   document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
   revealAll();
 }
