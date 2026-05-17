@@ -1,20 +1,20 @@
 {
-  "clan_name": "",
-  "clan_icon": "https://cdn.discordapp.com/icons/1082833025764687933/59386395b636888b318be9244f079330.webp?size=2048",
+  "clan_name": "Tartaros",
+  "clan_icon": "https://farfocele.s-ul.eu/K88EKtpp",
 
   "hero": {
-    "eyebrow": "",
-    "title": "",
-    "subtitle": "",
-    "tagline": ""
+    "eyebrow": "test",
+    "title": "test",
+    "subtitle": "test",
+    "tagline": "test"
   },
 
   "stats": [
-    { "value": "", "label": "" },
-    { "value": "", "label": "" },
-    { "value": "", "label": "" },
-    { "value": "", "label": "" },
-    { "value": "", "label": "" }
+    { "value": "27", "label": "Top 25 placements" },
+    { "value": "44", "label": "Top 100 placements" },
+    { "value": "10", "label": "Teams to choose from" },
+    { "value": "Over 300", "label": "Discord members" },
+    { "value": "140", "label": "Total team spots" }
   ],
 
   "recruiters": [
