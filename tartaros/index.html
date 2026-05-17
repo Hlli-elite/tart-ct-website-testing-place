@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tartaros — BTD6 Clan</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-brand" onclick="showPage('home')">
+    <img class="nav-logo" alt="Tartaros">
+    <span class="nav-wordmark">TARTAROS</span>
+  </div>
+  <div class="nav-tabs">
+    <button class="nav-tab active" data-page="home">Home</button>
+    <button class="nav-tab" data-page="about">About</button>
+    <button class="nav-tab" data-page="teams">Our Teams</button>
+    <button class="nav-tab" data-page="perks">Benefits</button>
+    <button class="nav-tab" data-page="join">Join Us</button>
+  </div>
+  <button class="nav-cta" onclick="showPage('join')">Apply Now</button>
+</nav>
+
+<!-- HOME -->
+<div class="page active" id="page-home">
+  <section class="hero">
+    <div class="icon-wrap">
+      <img class="hero-icon" alt="Tartaros">
+    </div>
+    <p class="eyebrow"></p>
+    <h1 class="hero-title"></h1>
+    <p class="hero-sub"></p>
+    <p class="hero-tagline"></p>
+    <div class="hero-btns">
+      <button class="btn btn-primary" onclick="showPage('teams')">Find My Team</button>
+      <button class="btn btn-outline" onclick="showPage('join')">Get In Touch</button>
+    </div>
+  </section>
+  <div class="stat-bar"><!-- populated by app.js --></div>
+</div>
+
+<!-- ABOUT -->
+<div class="page" id="page-about">
+  <div class="section"><!-- populated by app.js --></div>
+</div>
+
+<!-- TEAMS -->
+<div class="page" id="page-teams">
+  <div class="section"><!-- populated by app.js --></div>
+</div>
+
+<!-- PERKS -->
+<div class="page" id="page-perks">
+  <div class="section"><!-- populated by app.js --></div>
+</div>
+
+<!-- JOIN -->
+<div class="page" id="page-join">
+  <div class="section"><!-- populated by app.js --></div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-bg" id="modal-bg" onclick="bgClose(event)">
+  <div class="modal" id="modal">
+    <div class="modal-top-bar" id="modal-bar"></div>
+    <div class="modal-head">
+      <div>
+        <div class="mtag" id="mtag"></div>
+        <p class="mname" id="mname"></p>
+        <p class="mplace" id="mplace"></p>
+      </div>
+      <button class="mclose" onclick="closeModal()">✕</button>
+    </div>
+    <div class="mbody" id="mbody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast">Copied!</div>
+
+<footer><p></p></footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
