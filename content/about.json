@@ -1,0 +1,68 @@
+{
+  "label": "Who we are",
+  "title": "Most teams ask if you're <em>good enough</em> for them. We ask which team is right <highlight>for you</highlight>.",
+  "intro": "Between us we have teams for every kind of player. From top 25 grinders to people who just want to log in, have fun, and collect rewards — no matter where you are in your BTD6 experience, there's a spot here just for you. We just need to help you find out which one.",
+
+  "pillars": [
+    {
+      "icon": "🏆",
+      "title": "Competitive at every level",
+      "body": "All of our competitive teams proudly hold top 100 positions on the CT leaderboard, with our main teams consistently hitting top 25. We plan ahead, coordinate rosters and players, and set good scores."
+    },
+    {
+      "icon": "🎮",
+      "title": "Every game mode covered",
+      "body": "CT, Boss Rush, Social Seasons — we have dedicated teams for every mode. Play one, play all, or switch between them depending on the event. No commitment to a single mode required."
+    },
+    {
+      "icon": "🤝",
+      "title": "A community that helps",
+      "body": "Strats, solutions, or just someone to play with — people are here to help you succeed. We also run server events beyond BTD6 including Minecraft, skribbl.io, and more for server-wide fun."
+    },
+    {
+      "icon": "📋",
+      "title": "Powerful coordination",
+      "body": "Strategy is planned, plans are made, making sure no one is confused on what to do. You'll always know the goal before an event starts — no guessing, no chaos."
+    },
+    {
+      "icon": "🌱",
+      "title": "A place to learn and grow",
+      "body": "New to CT or just improving? We have teams built exactly for that. Whether it's Academy, University, Sandbox or Bunch — there's a learning environment waiting for you."
+    },
+    {
+      "icon": "🏅",
+      "title": "A path to the top",
+      "body": "Many of our main team players started in Sandbox or Academy. The structure is there — your dedication drives it. Wherever you start, there's always somewhere to go next."
+    }
+  ],
+
+  "values_label": "Our values",
+  "values_title": "What we stand for",
+  "values": [
+    {
+      "numeral": "I",
+      "title": "No hardcore grinding required.",
+      "body": "Just use your tickets and set decent scores. We value your time and don't require you to be online 24/7."
+    },
+    {
+      "numeral": "II",
+      "title": "Breaks are fine.",
+      "body": "Going away or need time off? Perhaps just a little burnt out? Life is important too — let us know in advance if you need to take a break."
+    },
+    {
+      "numeral": "III",
+      "title": "Zero toxicity policy.",
+      "body": "We take the game seriously, but remember: others are learning. We respect mastery but do not allow elitism."
+    },
+    {
+      "numeral": "IV",
+      "title": "Powerful coordination.",
+      "body": "We plan our strategy in advance and make sure the goals are understood. No one gets left confused before an event starts."
+    },
+    {
+      "numeral": "V",
+      "title": "A helpful player base.",
+      "body": "Strats, solutions, or just someone to play with — we will assist and create a healthy and enjoyable environment for all."
+    }
+  ]
+}
