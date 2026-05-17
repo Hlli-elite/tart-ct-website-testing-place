@@ -2,22 +2,22 @@
   "id": "university",
   "name": "Tartaros University",
   "color": "#9c6fdb",
-  "tag_label": "📈 Learning · Top 100",
+  "tag_label": "Learning — Top 100",
   "tag_class": "ctp",
-  "placement": "Targeting <span>top 100</span> · Focus on player development",
+  "placement": "Targeting <span>top 100</span> · Player development focus",
   "code": "GAZFOGSU",
   "section": "ct",
 
   "card_quote": "\"I'm competitive but not at the highest level. I want to challenge myself and learn the game.\"",
-  "card_desc": "→ University was made just for people like you. A structured learning environment still pushing for <strong>top 100</strong>. Pick up strats from experienced players and genuinely get better at CT.",
+  "card_desc": "University was made for players like you. A structured learning environment that still competes seriously. Pick up strategies from experienced players and build a proper understanding of CT.",
 
   "modal_quote": "\"I'm competitive but not at the highest level. I want to challenge myself and learn the game.\"",
-  "modal_desc": "University sits alongside Academy as a development team, with a stronger focus on learning the fundamentals of CT. If Academy is where you compete while improving, University is where you really dig into the game — understanding the meta, picking up strategies, and building the skills to move up. Experienced players are always on hand to explain, guide, and share knowledge freely.",
+  "modal_desc": "University places more emphasis on player development than Academy does. If you want to properly understand CT — the meta, the strategy, how to score well — this is the team to be on. Experienced players are actively involved in helping newer members learn, and there's a genuine culture of knowledge-sharing here. Still competitive, still targeting top 100, just with learning at the centre of it.",
   "requirements": [
-    "<strong>Eagerness to learn</strong> — that's the whole point of University",
-    "<strong>Some CT participation</strong> — use your attacks and engage with the event",
-    "<strong>Open to coaching</strong> — take on board strats and advice from experienced players",
-    "<strong>Respectful attitude</strong> — we're all at different stages, patience goes both ways",
-    "<strong>Discord presence</strong> — most of the learning and coordination happens here"
+    "<strong>Genuine interest in learning</strong> — that's the whole point of University",
+    "<strong>Participation each event</strong> — use your attacks and engage with CT",
+    "<strong>Receptive to guidance</strong> — willing to take on advice from more experienced players",
+    "<strong>Respectful attitude</strong> — everyone's at a different level, and patience matters",
+    "<strong>Active on Discord</strong> — most of the learning and planning happens there"
   ]
 }

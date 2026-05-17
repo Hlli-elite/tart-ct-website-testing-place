@@ -2,21 +2,21 @@
   "id": "sandbox",
   "name": "Tartaros Sandbox",
   "color": "#ffd54f",
-  "tag_label": "🌱 Casual",
+  "tag_label": "Casual",
   "tag_class": "cty",
-  "placement": "<span>Casual play</span> · Perfect for new or returning players",
+  "placement": "<span>Casual play</span> · New and returning players",
   "code": "XAZFYHXP",
   "section": "ct",
 
   "card_quote": "\"I'm new to CT, I want to learn the ropes or just want to test out the event.\"",
-  "card_desc": "→ Sandbox is suited just for you. No requirements, people to help you out, and a place to learn <strong>how</strong> to CT. Zero pressure — just play.",
+  "card_desc": "Sandbox is for players like you. No requirements, people around to help, and a space to learn how CT actually works. Start here, play at your own pace, and move up when you're ready.",
 
   "modal_quote": "\"I'm new to CT, I want to learn the ropes or just want to test out the event.\"",
-  "modal_desc": "Sandbox is exactly what it sounds like — a safe space to play, experiment, and learn without any expectations hanging over you. If you've never done CT before, or you've been away from it for a while, or you just want a chill home base while you figure things out, Sandbox is where you start. Friendly people, zero pressure, and plenty of help available whenever you want it.",
+  "modal_desc": "Sandbox is the right starting point if you're new to CT, coming back after time away, or just want to try the event without any pressure. There are no requirements, no score expectations, and no judgment. Friendly people are around if you have questions, and you can move up to a higher team whenever it feels right.",
   "requirements": [
-    "<strong>No requirements</strong> — seriously, just join and play at your own pace",
-    "<strong>Be respectful</strong> — that's the only rule that really matters here",
-    "<strong>Curious attitude</strong> — ask questions, try things, learn at whatever pace feels right",
-    "Sandbox doubles as the starting point for players being evaluated for higher team placement"
+    "<strong>No requirements</strong> — just join and play",
+    "<strong>Respectful conduct</strong> — the one thing that matters everywhere",
+    "<strong>Curiosity</strong> — ask questions, try things, learn at your own pace",
+    "Sandbox is also the entry point for players pending placement on a higher team"
   ]
 }

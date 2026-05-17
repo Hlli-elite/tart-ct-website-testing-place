@@ -67,7 +67,7 @@ function renderAbout(a) {
 
   const pillarsHTML = a.pillars.map(p =>
     `<div class="acard reveal">
-      <div class="acard-ico">${p.icon}</div>
+      ${p.icon ? `<div class="acard-ico">${p.icon}</div>` : ''}
       <p class="acard-title">${p.title}</p>
       <p class="acard-body">${p.body}</p>
     </div>`).join('');
@@ -167,7 +167,7 @@ function renderPerks(p) {
     <div class="perks-grid">
       ${p.perks.map(pk => `
         <div class="pcard reveal">
-          <div class="pico">${pk.icon}</div>
+          ${pk.icon ? `<div class="pico">${pk.icon}</div>` : ''}
           <div><p class="ptitle">${pk.title}</p><p class="pbody">${pk.body}</p></div>
         </div>`).join('')}
     </div>`;

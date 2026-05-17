@@ -2,21 +2,21 @@
   "id": "sanctum",
   "name": "Tartaros Sanctum",
   "color": "#66bb6a",
-  "tag_label": "🪴 Laid Back · Top 100",
+  "tag_label": "Relaxed — Top 100",
   "tag_class": "ctg",
-  "placement": "Targeting <span>top 100</span> · No heavy requirements",
+  "placement": "Targeting <span>top 100</span> · Low requirements",
   "code": "HFHZMHEE",
   "section": "ct",
 
   "card_quote": "\"I like CT but I can't commit to playing every day. I want something more laid back.\"",
-  "card_desc": "→ Sanctum has you covered. No large requirements — just show up, use some of your attacks, and enjoy the event. We still aim for <strong>top 100</strong>, but we understand that real life doesn't pause for CT.",
+  "card_desc": "Sanctum has you covered. No heavy requirements — just show up, use some attacks, and enjoy the event. We still aim for top 100, but we understand that real life doesn't pause for CT.",
 
   "modal_quote": "\"I like CT but I can't commit to playing every day. I want something more laid back.\"",
-  "modal_desc": "Sanctum is for the player who enjoys CT but can't — or simply doesn't want to — grind every single day. Real life doesn't pause for CT week, and we completely understand that. You'll still be part of a team aiming for top 100, still contributing and enjoying the event, just without the pressure of strict daily requirements. Show up, use some of your attacks, enjoy the ride.",
+  "modal_desc": "Sanctum is for players who enjoy CT but can't commit to grinding every day — and that's a completely valid position. You'll still be part of a team aiming for top 100, still contributing to the event, just without the pressure of strict daily requirements. Show up when you can, use your attacks, and enjoy the game without it feeling like a job.",
   "requirements": [
-    "<strong>Some ticket usage</strong> — you don't need to use all of them, but contribute where you can",
-    "<strong>Heads up if inactive</strong> — just let us know if you're going to miss an event",
-    "<strong>Respectful attitude</strong> — that's really all we ask",
-    "<strong>Basic Discord check-ins</strong> — no need to be online constantly, just stay loosely in the loop"
+    "<strong>Some ticket usage</strong> — contribute what you can, every event",
+    "<strong>Communication around absence</strong> — let us know if you're going to miss an event",
+    "<strong>Respectful conduct</strong> — that's the one thing we always ask for",
+    "<strong>Occasional Discord check-ins</strong> — no need to be online constantly"
   ]
 }

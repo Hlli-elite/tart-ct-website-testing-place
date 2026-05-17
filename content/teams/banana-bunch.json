@@ -2,21 +2,21 @@
   "id": "bunch",
   "name": "Banana Bunch",
   "color": "#66bb6a",
-  "tag_label": "🪴 Laid Back · Learning",
+  "tag_label": "Relaxed — Learning",
   "tag_class": "ctg",
-  "placement": "<span>Casual CT</span> · Nurturing learning environment",
+  "placement": "<span>Casual CT</span> · Relaxed learning environment",
   "code": "TBZFPBBK",
   "section": "ct",
 
   "card_quote": "\"I like CT but I can't commit to playing every day. I want something more laid back.\"",
-  "card_desc": "→ Banana Bunch has you covered. A relaxed CT team aimed at a more nurturing experience for learning. Use at least some of your attacks every day and learn at your own pace.",
+  "card_desc": "Banana Bunch has you covered. A relaxed CT team focused on learning at your own pace. Use at least some attacks each day and enjoy the event without the pressure.",
 
   "modal_quote": "\"I like CT but I can't commit to playing every day. I want something more laid back.\"",
-  "modal_desc": "Banana Bunch is a laid-back CT team focused on giving players a nurturing, low-pressure environment to learn and enjoy the event. Perfect for players who want to participate in CT without the weight of strict requirements. Use at least some of your attacks each day, pick up tips from the people around you, and enjoy the event at your own pace.",
+  "modal_desc": "Banana Bunch is a low-pressure CT team focused on giving players a relaxed environment to learn the event and enjoy it. If you want to take part in CT without strict requirements weighing on you, this is a good home. Use at least some of your attacks each day, pick things up as you go, and play at a pace that works for you.",
   "requirements": [
-    "<strong>Use at least some attacks daily</strong> — just contribute what you can",
-    "<strong>Willingness to learn</strong> — Bunch is a learning environment, lean into it",
-    "<strong>Respectful attitude</strong> — be kind, be patient, and remember everyone's at a different stage",
-    "No minimum score requirements — just participate and engage with the event"
+    "<strong>At least some daily attacks</strong> — contribute what you can",
+    "<strong>Willingness to learn</strong> — Bunch is a learning environment",
+    "<strong>Respectful attitude</strong> — everyone is at a different stage, and that's fine",
+    "No minimum score requirements — just participate and engage"
   ]
 }

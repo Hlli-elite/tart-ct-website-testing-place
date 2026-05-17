@@ -1,48 +1,48 @@
 {
   "label": "Whatever team you land on",
-  "title": "We have more.",
-  "intro": "Across every team, you get the same culture — competitive where it counts, human everywhere else.",
+  "title": "Here's what comes with it.",
+  "intro": "Every team in Tartaros operates with the same culture — serious about the game, reasonable about everything else.",
 
   "perks": [
     {
-      "icon": "🏖️",
-      "title": "Breaks are fine",
-      "body": "Going away or need time off? Perhaps just a little burnt out? Life is important too — let us know in advance if you need to take a break!"
+      "icon": "",
+      "title": "Inactivity is handled fairly",
+      "body": "Going away or need time off? Just let us know in advance. Life comes first and your spot will be there when you're back."
     },
     {
-      "icon": "📋",
-      "title": "Real coordination",
-      "body": "Strategy is planned, plans are made, making sure no one is confused on what to do. You'll always know the goal before an event starts."
+      "icon": "",
+      "title": "Coordination before every event",
+      "body": "Strategy is planned and communicated clearly before events begin. You'll always know what the goal is and what's expected of you."
     },
     {
-      "icon": "🤝",
-      "title": "A community that helps",
-      "body": "Strats, solutions, or just someone to play with — people are here to help you succeed. We will assist and create a healthy and enjoyable environment for all."
+      "icon": "",
+      "title": "A player base that helps",
+      "body": "Whether it's strategies, troubleshooting, or just someone to play alongside — people here are willing to help. Ask questions and you'll get answers."
     },
     {
-      "icon": "🛡️",
-      "title": "Zero toxicity, zero elitism",
-      "body": "We take the game seriously, but remember: others are learning. We respect mastery but do not allow elitism."
+      "icon": "",
+      "title": "No toxic behaviour, no elitism",
+      "body": "We compete seriously but keep things respectful. Everyone is at a different stage and that's treated as normal, not something to criticise."
     },
     {
-      "icon": "⏱️",
-      "title": "No hardcore grinding required",
-      "body": "Just use your tickets and set decent scores. We value your time and don't require you to be online 24/7."
+      "icon": "",
+      "title": "No obsessive grinding",
+      "body": "Use your tickets and play your part. We don't expect you to be online constantly — consistent, decent participation is what matters."
     },
     {
-      "icon": "💥",
-      "title": "Boss Rush for everyone",
-      "body": "We also play Boss Rush on our lower teams. Don't want to play and just get rewards? No problem — you can leave your team to grab rewards, and go back."
+      "icon": "",
+      "title": "Boss Rush access",
+      "body": "We run Boss Rush on our lower teams. Not interested in playing? You can still collect rewards once the team clears all islands."
     },
     {
-      "icon": "🎉",
-      "title": "More than just BTD6",
-      "body": "Regular server events including Minecraft, skribbl.io, and more for server-wide fun!"
+      "icon": "",
+      "title": "Events beyond BTD6",
+      "body": "We run server-wide events including Minecraft, skribbl.io, and others — for when you want to spend time with the community outside of the game."
     },
     {
-      "icon": "📈",
-      "title": "Room to grow",
-      "body": "Start wherever suits you and climb at your own pace. The structure is there — your dedication drives it."
+      "icon": "",
+      "title": "Room to move up",
+      "body": "Start wherever suits your current level and progress at your own pace. The pathway to higher teams is open to anyone who puts in the effort."
     }
   ]
 }

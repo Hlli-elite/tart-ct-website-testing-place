@@ -2,22 +2,22 @@
   "id": "battalion",
   "name": "Banana Battalion",
   "color": "#9c6fdb",
-  "tag_label": "📈 Developing · Top 100",
+  "tag_label": "Developing — Top 100",
   "tag_class": "ctp",
-  "placement": "Targeting <span>top 100</span> · Competitive development team",
+  "placement": "Targeting <span>top 100</span> · Competitive development",
   "code": "OLZFCRPA",
   "section": "ct",
 
   "card_quote": "\"I'm competitive but not at the highest level. I want to challenge myself and learn the game.\"",
-  "card_desc": "→ Battalion was made just for people like you. Reaching for <strong>top 100</strong> in a competitive environment without the pressure of an elite team. Compete, grow, move up when you're ready.",
+  "card_desc": "Battalion was built for players like you. Competitive CT targeting top 100, without the pressure of an elite squad. A solid environment to develop, perform, and progress when you're ready.",
 
   "modal_quote": "\"I'm competitive but not at the highest level. I want to challenge myself and learn the game.\"",
-  "modal_desc": "Banana Battalion is a development CT squad that takes competition seriously without the extreme demands of an elite team. It's a great home for players who are actively improving and want to prove themselves in a competitive environment. Think of it as another path toward the top — you compete, you grow, and when you're ready, you move up.",
+  "modal_desc": "Banana Battalion takes competition seriously without demanding the same level of commitment as the top teams. It's a good fit for players who are actively improving and want to compete in a structured environment while still having room to develop. The expectation is that you show up, contribute, and keep working to get better.",
   "requirements": [
-    "<strong>Regular ticket usage</strong> — you're expected to participate meaningfully each event",
-    "<strong>Willingness to learn</strong> — open to feedback and strategy from more experienced players",
-    "<strong>Decent scoring</strong> — contributing to team placement, not just showing up",
-    "<strong>Discord presence</strong> — staying in the loop on plans and coordination",
-    "<strong>Competitive mindset</strong> — you want to improve, not just coast"
+    "<strong>Regular participation</strong> — expected to contribute meaningfully each event",
+    "<strong>Open to feedback</strong> — willing to learn from more experienced players",
+    "<strong>Solid scoring</strong> — contributing to team placement, not just being present",
+    "<strong>Active on Discord</strong> — keeping up with plans and coordination",
+    "<strong>Competitive mindset</strong> — here to improve, not just to have a team"
   ]
 }

@@ -10,11 +10,11 @@
   },
 
   "stats": [
-    { "value": "Top 25",   "label": "Main team CT placement" },
-    { "value": "Top 100",  "label": "All competitive teams" },
-    { "value": "10",       "label": "Teams for every playstyle" },
-    { "value": "All modes","label": "CT, Boss Rush & Social Seasons" },
-    { "value": "0",        "label": "Toxicity tolerated" }
+    { "value": "Top 25",    "label": "Main team CT placement" },
+    { "value": "Top 100",   "label": "All competitive teams" },
+    { "value": "10",        "label": "Teams for every playstyle" },
+    { "value": "All modes", "label": "CT, Boss Rush & Social Seasons" },
+    { "value": "0",         "label": "Toxicity tolerated" }
   ],
 
   "recruiters": [
@@ -22,7 +22,7 @@
     { "initial": "H", "username": "Hlli_elite", "role": "Recruiter — DM on Discord",      "gradient": "135deg,#9c6fdb,#ef5350" }
   ],
 
-  "footer": "⚔️ Tartaros — BTD6 Clan · Recruiting for next event",
+  "footer": "Tartaros — BTD6 Clan · Recruiting for next event",
 
   "webhook_url": "https://discord.com/api/webhooks/1505286940046528683/O4v_MHFIKNqF7Jycti8Sft2G29BnSKu7IsOUYjCGPQLj-6NS9seKjGjZFCR3QqKGtjpe"
 }

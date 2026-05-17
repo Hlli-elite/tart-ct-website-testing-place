@@ -2,22 +2,22 @@
   "id": "main",
   "name": "Tartaros",
   "color": "#4fc3f7",
-  "tag_label": "🏆 Competitive · Top 25",
+  "tag_label": "Competitive — Top 25",
   "tag_class": "ctb",
-  "placement": "Consistent <span>top 25</span> CT finishes · Our flagship team",
+  "placement": "Consistent <span>top 25</span> CT finishes · Flagship team",
   "code": "DRRZTFVS",
   "section": "ct",
 
   "card_quote": "\"I'm active, I respond to pings, I am dedicated to CT.\"",
-  "card_desc": "→ You belong on the main team. Consistent <strong>top 25</strong> CT finishes whilst battling hard locals. We plan ahead, coordinate rosters and players, and set good scores. If you're dedicated to the game and want to compete with the best of the best, this is where you should play.",
+  "card_desc": "Our flagship team. Consistent top 25 CT finishes whilst battling hard locals. We plan ahead, coordinate rosters, and set strong scores. If you're dedicated to the game and want to compete at the highest level, this is where you play.",
 
   "modal_quote": "\"I'm active, I respond to pings, I am dedicated to CT.\"",
-  "modal_desc": "Tartaros is the flagship team — the one we're most proud of. We consistently sit in the top 25 on the CT leaderboard, battling hard locals and pushing our placement as high as possible each event. This is where the most dedicated, active players land. If you love CT, want to compete at a high level, and are ready to be part of something serious and well-organised — this is where you play.",
+  "modal_desc": "Tartaros is our flagship team and where our most committed players compete. We consistently place in the top 25 on the CT leaderboard, battling hard locals and coordinating tightly to push our placement as high as possible each event. If you're serious about CT and want to compete at the top level in a well-organised environment, this is the right team for you.",
   "requirements": [
-    "<strong>Active participation</strong> — use all your tickets every event, no exceptions",
-    "<strong>Respond to pings</strong> — be available and engaged when strategy is being planned",
-    "<strong>Dedicated to CT</strong> — fully committed to helping the team place as high as possible",
-    "<strong>Consistent performance</strong> — setting strong scores regularly, not just occasionally",
-    "<strong>Discord presence</strong> — staying in the loop on plans, rosters, and coordination"
+    "<strong>Full ticket usage every event</strong> — no exceptions",
+    "<strong>Responsive to pings</strong> — available and engaged when strategy is being discussed",
+    "<strong>Committed to CT</strong> — focused on helping the team place as high as possible",
+    "<strong>Consistently strong performance</strong> — not just showing up occasionally",
+    "<strong>Active on Discord</strong> — keeping up with plans, rosters, and coordination"
   ]
 }
