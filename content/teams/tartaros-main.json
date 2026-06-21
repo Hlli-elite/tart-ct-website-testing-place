@@ -1,18 +1,18 @@
 {
   "id": "main",
-  "name": "Tartaros",
+  "name": "Tartaros (Main Team)",
   "color": "#4fc3f7",
   "tag_label": "Competitive CT",
   "tag_class": "ctb",
-  "placement": "Top 25 in CT | Main Team",
+  "placement": "Global top 25 placements",
   "code": "DRRZTFVS",
   "section": "ct",
 
   "card_quote": "I'm active, I respond to pings, I'm dedicated to CT.",
-  "card_desc": "This is the main and highest level team for our best, most active players. It's been here since the beginning, and it's the one we are the most proud of. In this team, you would be expected to be active, respond to pings, and be more dedicated to CT than any lower team, in addition to being able to set good scores. You will be hunting for Top 25 placements and fighting and winning difficult local fights in this team, so if you love CT and want to compete at the highest level with the best of the best, this is the team for you.",
+  "card_desc": "This is the main and highest level team for our best, most active players. It's been here since the beginning, and it's the one we are the most proud of. If you're interested in playing CT at the highest levels and fighting difficult locals for local top 1s and global top 25s, this is the team for you.",
 
-  "modal_quote": "",
-  "modal_desc": "",
+  "modal_quote": "test",
+  "modal_desc": "test",
   "requirements": [
     "Active Participation - Use your all of your tickets daily, unless instructed otherwise.",
     "Performance - Do your best and set good scores at all times.",
