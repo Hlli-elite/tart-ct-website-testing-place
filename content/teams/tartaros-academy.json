@@ -2,21 +2,21 @@
   "id": "academy",
   "name": "Tartaros Academy",
   "color": "#9c6fdb",
-  "tag_label": "",
+  "tag_label": "Competitive CT",
   "tag_class": "ctp",
-  "placement": "",
+  "placement": "Global Top 25/100 placements",
   "code": "OSZFFSBR",
   "section": "ct",
 
-  "card_quote": "",
-  "card_desc": "",
+  "card_quote": "I'm competitive but not at the highest level. I want to challenge myself and learn the game with active communication with a Tartaros team.",
+  "card_desc": "This is our second-level team along with Tartaros University and Banana Battalion. With a total of 4 Top 25s and 16 Top 100s, this is the team for you if you want a more forgiving but still competitive and active environment with an active chat, or if you want to prove yourself worthy of the Main Team.",
 
-  "modal_quote": "",
-  "modal_desc": "",
+  "modal_quote": "I'm competitive but not at the highest level. I want to challenge myself and learn the game with active communication with a Tartaros team.",
+  "modal_desc": "This is our second-level team along with Tartaros University and Banana Battalion. With a total of 4 Top 25s and 16 Top 100s, this is the team for you if you want a more forgiving but still competitive and active environment with an active chat, or if you want to prove yourself worthy of the Main Team.",
   "requirements": [
-    "",
-    "",
-    "",
-    ""
+    "Active Participation - Use most/all of your tickets daily, unless instructed otherwise.",
+    "Performance - Do your best to set decent scores on tiles you play.",
+    "Discord Activity - Read team and strategy announcements whenever they're posted.",
+    "Dedication to CT - Be committed to helping out your team."
   ]
 }
