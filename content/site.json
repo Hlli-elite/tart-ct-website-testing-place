@@ -5,15 +5,15 @@
   "hero": {
     "eyebrow": "Competitive Bloons TD 6 Team",
     "title": "Tartaros",
-    "subtitle": "We do not ask whether you're the right player for us.",
-    "tagline": "We ask which one of our teams is the right one for you."
+    "subtitle": "We don't ask whether you're the right player for us.",
+    "tagline": "We ask which team is the right one for you."
   },
 
   "stats": [
-    { "value": "27", "label": "Top 25 placements" },
-    { "value": "44", "label": "Top 100 placements" },
-    { "value": "10", "label": "Teams to choose from" },
-    { "value": "Over 300", "label": "Discord members" },
+    { "value": "38", "label": "Top 25 placements" },
+    { "value": "50", "label": "Top 100 placements" },
+    { "value": "9", "label": "Teams to choose from" },
+    { "value": "Over 400", "label": "Discord members" },
     { "value": "140", "label": "Total team spots" }
   ],
 
